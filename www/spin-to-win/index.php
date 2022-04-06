@@ -4,7 +4,7 @@
 $enId = '060ac71b9ab24ab5a6277435fe1708ef';
 if (empty($_GET['en_id']) || $_GET['en_id'] != $enId) return;
 
-require_once(__DIR__ . '/../../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
+require_once(__DIR__ . '/../../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
 
 $assetVersion = ($enConfigClient['environment']['env'] == 'dev') ? time() : $enConfigClient['environment']['deploy_id'];
 $enIdToken = $enEncryptionClient->encrypt(

@@ -1,9 +1,9 @@
-<?php require_once __DIR__ . '/../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
+<?php require_once __DIR__ . '/../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-front-end.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="setTo100">
 <head>
     <title>Colonial Downs</title>
-    <?php require_once __DIR__ . '/../../colonial-downs-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
+    <?php require_once __DIR__ . '/../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/GoogleTagManager/Resources/public/gtm.php'; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=colonial-downs&client_id=060ac71b9ab24ab5a6277435fe1708ef" type="text/javascript"></script>
+    <script src="//<?php echo $enConfigClient['environment']['site_portal']; ?>/lib/js/engage.php?client_name=colonial-downs-web&client_id=841d28866b60b0fa13b8f399372363b4" type="text/javascript"></script>
 
     <div id="en-footer-layout-container"></div>
 </body>

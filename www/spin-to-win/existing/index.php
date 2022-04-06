@@ -1,5 +1,5 @@
 <?php
-require_once(__DIR__ . '/../../../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
+require_once(__DIR__ . '/../../../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
 ?>
 
 <div class="container-fluid my-3">

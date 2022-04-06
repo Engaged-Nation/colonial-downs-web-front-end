@@ -1,8 +1,8 @@
 <?php
 if (empty($_POST) || !isset($_POST['prizeId'])) return;
 
-require_once(__DIR__ . '/../../../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
-require_once(__DIR__ . '/../../../../colonial-downs-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-device-detector.php');
+require_once(__DIR__ . '/../../../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-configuration.php');
+require_once(__DIR__ . '/../../../../colonial-downs-web-portal/vendor/engaged-nation/portal-core/FrontEnd/Bootstrap/client-device-detector.php');
 
 $componentId = $_POST['component']['id'];
 $referer = $_SERVER['HTTP_REFERER'];
