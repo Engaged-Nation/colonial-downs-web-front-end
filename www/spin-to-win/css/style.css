@@ -1,0 +1,190 @@
+/**
+ * Css for sticky-bottom.
+ **/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#dynamic-content {
+  flex: 1 0 auto;
+}
+
+#sticky-bottom {
+    flex-shrink: 0;
+}
+/*****/
+
+#loading-icon {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/page-loading-icon.gif") center no-repeat;
+}
+
+#loading-icon.not-loaded {
+    display: block;
+}
+
+#loading-icon.loaded {
+    display: none;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/spin-to-win/site-background.png") center no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: #000;
+}
+
+.client-logo-lg,
+.client-logo-md,
+.client-logo-sm,
+.client-logo-xs {
+    margin: 0 auto;
+    display: block;
+}
+
+.bg-white {
+    background: #fff;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.small,
+p,
+label {
+  color: #fff;
+}
+
+.mark {
+    color: #fddd9c;
+    padding: 0;
+    background: none;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 76px;
+    letter-spacing: -0.18px;
+    text-shadow: 4px 4px 0 #000000;
+    line-height: 1em;
+}
+
+.h4 {
+    text-shadow: 2px 2px 0 #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    letter-spacing: -0.1px;
+}
+
+.h6 {
+    text-shadow: 1px 1px 0 #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 29px;
+    letter-spacing: -0.07px;
+}
+
+.display-4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 71px;
+    letter-spacing: -0.8px;
+    text-shadow: 3px 3px 0 #000000;
+    line-height: 1em;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.2em;
+    letter-spacing: 0.27px;
+}
+
+#afterplay .h1 {
+    text-shadow: 3px 3px 0 #000000;
+    font-size: 61px;
+    letter-spacing: -0.15px;
+}
+
+#afterplay .h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 3px 3px 0 #000000;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: -0.41px;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary {
+    border-radius: 0.5em;
+    background-color: #e84c22;
+    border-color: #e84c22;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.11px;
+    color: #ffffff;
+}
+
+.btn-outline-light,
+.form-group-border {
+    border: 2px solid #fff;
+    border-radius: 0.5em;
+}
+
+.form-group-border {
+    padding: 30px 30px 15px 30px;
+}
+
+.client-logo-lg {
+    max-width: 511px;
+}
+
+.client-logo-md {
+    max-width: 415px;
+}
+
+.client-logo-sm {
+    max-width: 197px;
+}
+
+.client-logo-xs {
+    max-width: 87px;
+}
